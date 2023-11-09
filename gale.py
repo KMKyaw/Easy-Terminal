@@ -1,10 +1,10 @@
 #!/usr/bin/python3
-from cmd_fetcher import process_file_and_write
+from run_cmd import process_file_and_write
 from gradio_client import Client
 import re
 
 prompt="""
-Give me a (series of) linux command(s) that will create a command-line Python program that prints Hello world.
+Give me a (series of) linux command(s) that will create a command-line python program that prints 10 even integers and then run that program.
 1.Do not use 'nano'. Use 'echo' to create files.
 2.Avoid 'sudo' if possible.
 3.Assume required programs are installed.
