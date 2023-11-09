@@ -1,4 +1,1 @@
-echo "python3" > prog.sh
- echo "for i in range(10); do printf "%d\n" $i*2; done" >> prog.sh
- chmod +x prog.sh
- ./prog.sh
+No content between triple backticks found.
