@@ -1,6 +1,5 @@
 import subprocess
 import re
-from gale import solve_err 
 
 def process_file_and_write(content):
     matches = re.findall(r"```(.*?)```", content, re.DOTALL)
@@ -18,6 +17,7 @@ def process_file_and_write(content):
     execute_cmd(cmds)
 
 def execute_cmd(cmds):
+    from gale import solve_err 
     err_occured = False
     for command in cmds:
         result = subprocess.run(command, stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True, shell=True)

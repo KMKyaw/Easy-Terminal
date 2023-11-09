@@ -1,1 +1,2 @@
-No content between triple backticks found.
+bash
+`echo "hello world"`

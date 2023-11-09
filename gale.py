@@ -5,7 +5,7 @@ import re
 
 def run() :
     prompt="""
-    Give me a (series of) linux command(s) that will create a command-line Python program that prints 10 numbers and then run that program.
+    Give me a (series of) linux command(s) that will create a command-line Python program that prints 5 even numbers and then run that program.
     1.Do not use 'nano'. Use 'echo' to create files.
     2.Avoid 'sudo' if possible.
     3.Assume required programs are installed.
